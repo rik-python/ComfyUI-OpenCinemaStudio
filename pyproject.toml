@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-open-cinema-studio"
+description = "Film Grade node from Open Cinema Studio: a local, free film finish for images (old movie, warm print, cool night, bleach bypass), with Pro-Mist diffusion, chromatic aberration, cos4 vignette, grain and letterbox."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = ["opencv-python"]
+classifiers = ["Development Status :: 4 - Beta"]
+
+[project.urls]
+Repository = "https://github.com/rik-python/ComfyUI-OpenCinemaStudio"
+"Bug Tracker" = "https://github.com/rik-python/ComfyUI-OpenCinemaStudio/issues"
+
+[tool.comfy]
+PublisherId = "<PUBLISHER_ID>"
+DisplayName = "Open Cinema Studio (Film Grade)"
+Icon = ""
+includes = []
+requires-comfyui = ">=0.42.0"
